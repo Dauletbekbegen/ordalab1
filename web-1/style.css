@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    width: 100%;
+    padding: 10px 25px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+}
+.hero{
+    max-width: 100vw;
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./image/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    padding: 10px 50px;
+}
+.hero__title{
+    color: aliceblue;
+    font-size: 75px;
+}
+.hero__desc{
+    color: aliceblue;
+    font-size: 45px;
+}
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 150px 20px;
+}
+.tool{
+    width: 250px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 0 10px black;
+}
+.tool__image{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.tool_title{
+    font-size: 20px;
+    text-align: center;
+}
+.tools__title{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+.desc{
+    background: linear-gradient(rgba(225,225,225,.2), rgba(225,225,225,.2)), url(./image/background.jpg);
+    background-position: center;
+    padding: 50px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+tr, td{
+    border: 1px solid black;
+}
+
+.reaction{
+    padding: 20px 30px;
+}
+code{
+    text-align: center;
+    width: 100%;
+    background-color: aqua;
+    font-size: 50px;
+    margin: 50px 15px;
+}
+.formula{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
